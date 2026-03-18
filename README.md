@@ -15,8 +15,11 @@ using classical numerical methods written manually in Python.
 - Muller's Method
 - Steffensen's Method (included because it appears in the required class structure)
 # How the project solve the assignment
-git add .
-git commit -m "Add new source code"
+The class exposes exactly one public interface:
+
+main.py
+data.csv
+model.py
 solve(method, **kwargs)
 # The solve() method internally dispatches to private methods:
 
