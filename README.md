@@ -15,6 +15,7 @@ using classical numerical methods written manually in Python.
 - Muller's Method
 - Steffensen's Method (included because it appears in the required class structure)
 # How the project solve the assignment
+
 solve(method, **kwargs)
 # The solve() method internally dispatches to private methods:
 
@@ -28,7 +29,12 @@ solve(method, **kwargs)
 - _muller(...)
 This follows the assignment structure.
 # File Structure
+
 root-finding-project/
 │── root_finding.py
 │── examples.py
 │── README.md
+# How to run the examples
+From the project folder:
+
+python examples.py
